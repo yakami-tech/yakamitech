@@ -1,32 +1,57 @@
-# 🚤 Yakami Tech - IoT para Transporte Fluvial na Amazônia
+# 🚀 YAKAMI Tech — Infraestrutura Ciberfísica & Tecnologias Espaciais para a Amazônia
 
-Sistema inteligente de monitoramento fluvial com IoT e TinyML para logística de saúde e segurança na Amazônia.
+> **Soberania de dados, sensoriamento remoto, IoT de borda e rastreabilidade regulatória (Método RRDA) na Amazônia Legal.**
 
-## 📋 Sobre o Projeto
+---
 
-Desenvolvemos soluções IoT para:
-- ✅ Controle de temperatura para vacinas em transporte fluvial
-- ✅ Monitoramento de segurança para embarcações turísticas
-- ✅ Otimização logística de cargas na região amazônica
+## 🏢 Sobre a YAKAMI Tech
 
-## 🛠️ Tecnologias
+A **YAKAMI Tech** é uma startup *Deep Tech* sediada em Manaus/AM, nascida do ecossistema de inovação da Residência em Sistemas Embarcados da Softex / EmbarcaTech. Atuamos no desenvolvimento de soluções de alta complexidade para monitoramento ambiental, logística crítica, infraestruturas ciberfísicas e soberania de dados para a Amazônia e mercados de inovação global.
 
-- **Hardware:** BitDogLab RP2040
-- **Firmware:** C/C++ com FreeRTOS
-- **Comunicação:** MQTT, WiFi, Bluetooth
-- **ML:** TinyML para análise preditiva
-- **Cloud:** Google Cloud IoT Core
+---
 
-## 🏢 Sobre a Yakami Tech
+## 🛰️ A Missão YAKAMI-SAT 1 (ProSAME / AEB)
 
-Startup manauara nascida na Residência em Sistemas Embarcados da Softex, focada em soluções tecnológicas para os desafios únicos da Amazônia.
+Somos responsáveis pelo desenvolvimento da **Missão YAKAMI-SAT 1**, submetida ao Programa de Seleção de Missões Espaciais (ProSAME) da **Agência Espacial Brasileira (AEB)** em cooperação com a **EST/UEA**. A missão utiliza uma arquitetura ciberfísica de 3 camadas (*SAT — FLOW — NET*) para garantir a validação e rastreabilidade de ativos ambientais:
 
-## 📞 Contato
+```text
+  ┌────────────────────────────────────────────────────────────────────────┐
+  │                        ARQUITETURA CIBERFÍSICA                         │
+  └────────────────────────────────────────────────────────────────────────┘
+                                     │
+      ┌──────────────────────────────┼──────────────────────────────┐
+      ▼                              ▼                              ▼
+ [ YAKAMI-SAT ]               [ YAKAMI-FLOW ]                [ YAKAMI-NET ]
+  Camada Espacial              Camada Terrestre               Camada Digital
+Sensoriamento Orbital         Nós IoT de Borda (RP2040)      Método RRDA / Blockchains
+(CubeSats / LEO 600km)        Sensoriamento Fluvial & Clima  Trilha de Auditoria
 
-- **Site:** [www.yakami.com.br](https://www.yakami.com.br)
-- **E-mail:** yakami.tech@gmail.com
-- **LinkedIn:** https://www.linkedin.com/company/yakami-tech/?viewAsMember=true 
+📋 Soluções & Áreas de Atuação
 
-## 📄 Licença
+🛰️ Sensoriamento Remoto & New Space: Processamento de telemetria orbital e calibração com dados terrestres.
+🌡️ Logística Crítica & Cadeia de Frio: Monitoramento inteligente para transporte de vacinas e insumos de saúde em rios amazônicos.
+🚢 Segurança Operational Fluvial: Telemetria com inteligência embarcada (TinyML) para navegação e transporte de cargas.
+🛡️ Rastreabilidade Regulatória (Método RRDA): Software e smart contracts para garantia de procedência, imutabilidade de dados e auditorias de créditos de carbono.🏫 Inclusão & Impacto Social (Eco Station EDU): Prototipagem de estações meteorológicas de baixo custo para escolas públicas rurais da Amazônia.
 
-Este projeto está sob a licença MIT. Veja o arquivo 
+🛠️ Tecnologias & Stack Técnica
+
+Hardware & Embarcados: BitDogLab RP2040, Raspberry Pi Pico W, arquiteturas ARM Cortex-M, sensores de precisão e gestão solar autônoma (LiFePO4).
+
+Firmware & RTOS: Programação C/C++ nativa com FreeRTOS (multitasking e tempo real).
+Inteligência Artificial de Borda: Modelos TinyML para análise preditiva e detecção de anomalias in situ.
+Conectividade: LoRaWAN 915MHz, MQTT, Modbus, Wi-Fi e integração com enlace espacial.
+Web3 & Governança: Solidity (Smart Contracts TrustFlow) e Método RRDA (Rastreabilidade Regulatória de Dados).
+
+📂 Ecossistema de Repositórios
+
+yakami-eco-gateway: Firmware e hardware de campo (YAKAMI-FLOW).
+yakami-node-protocol: Protocolo de comunicação e ingestão de telemetria de borda.
+yakami-core-contracts: Smart contracts e motores de imutabilidade do Método RRDA.
+yakami-legal-governance: Marcos regulatórios, compliance e propriedade intelectual.
+business-hub: Dossiês de inovação, relatórios TRL e submissões institucionais.
+
+📞 Contato Institucional
+🌐 Site Oficial: www.yakami.com.br✉️ E-mail: contato@yakami.com.br
+💼 LinkedIn: YAKAMI Tech no LinkedIn
+
+📄 Licença & Propriedade IntelectualEste ecossistema contém módulos open-source (para fins educacionais e de demonstração) e componentes protegidos por Propriedade Intelectual Exclusiva da YAKAMI Tech Ltda.Consulte o arquivo LICENSE em cada repositório específico para detalhes de uso e conformidade.
